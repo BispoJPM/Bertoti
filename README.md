@@ -12,7 +12,7 @@ R: É algo que precisamos para desenvolver, gerir e manutenciar um aplicativo/pr
 
 ## Aula 2 - 23/02:
 
-Discusão
+Debate
 
 ## Aula 3 - 26/02: Atividade 2
 
