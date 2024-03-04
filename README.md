@@ -50,6 +50,42 @@ Arquitetura: Microservices Architecture
 Exemplo: Plataforma E-Commerce
 Justificativa: A flexibilidade traz benefícios em termos de agilidade e escalabilidade, mas a complexidade pode impactar negativamente a manutenção e a compreensão do sistema.
 
+## Aula 5 - 04/03
+
+Continuação da Atividade 3.
+
+Arquitetura: Layered Architecture Style
+Exemplo: Sistema de Gestão de Biblioteca
+Vantagem: **Eficiência:** O sistema deve ser capaz de lidar com um grande volume de transações simultâneas de forma eficiente, mantendo baixo tempo de resposta para os usuários.
+Desvantagem: **Manutenibilidade:** O sistema deve ser facilmente extensível e modificável por desenvolvedores sem a necessidade de documentação ou treinamento adicional.
+
+Arquitetura: Pipeline Architecture Style
+Exemplo: Sistema de Análise de Dados em Tempo Real
+Vantagem: **Escalabilidade:** O sistema deve ser capaz de lidar com o aumento do volume de dados processados no pipeline, garantindo que o desempenho não seja comprometido conforme mais dados são processados.
+Desvantagem: **Flexibilidade:** O sistema deve ter a capacidade de alterar a ordem das etapas do pipeline de forma dinâmica, sem a necessidade de intervenção manual ou reinicialização do sistema.
+
+Arquitetura: Microkernel Architecture Style
+Exemplo: Plataforma de E-commerce Modular
+Vantagem: **Desacoplamento:** Os módulos do sistema devem ser altamente desacoplados, permitindo que as alterações em um módulo não afetem diretamente os demais. Isso facilita a manutenção e evolução do sistema.
+Desvantagem: **Desempenho Absoluto:** O sistema deve garantir o melhor desempenho possível em todas as situações, sem comprometer em nenhum momento a velocidade de processamento.
+
+Arquitetura: Service-Based Architecture Style
+Exemplo: Plataforma de Streaming de Vídeo
+Vantagem: **Escalabilidade:** A arquitetura deve ser capaz de escalar horizontalmente, permitindo que novos serviços sejam adicionados e dimensionados de forma independente, garantindo o desempenho adequado do sistema.
+Desvantagem: **Otimização Extrema:** Todos os serviços devem ser otimizados ao máximo, mesmo que isso demande um esforço significativo e gere complexidade desnecessária no desenvolvimento.
+
+Arquitetura: Event-Driven Architecture Style
+Exemplo: Plataforma de Gestão de Eventos
+Vantagem: **Resiliência:** A arquitetura deve ser resiliente, permitindo que o sistema se recupere automaticamente de falhas de comunicação entre os eventos e garanta a integridade dos dados em caso de eventos perdidos ou atrasados.
+Desvantagem: **Complexidade Extrema:** As interações entre os eventos devem ser extremamente complexas e intricadas, mesmo que isso torne a manutenção e o entendimento do sistema mais difíceis para os desenvolvedores.
+
+Arquitetura: Microservices Architecture
+Exemplo: Plataforma de Delivery de Alimentos
+Vantagem: **Escalabilidade:** A arquitetura deve permitir que os microserviços sejam escalados de forma independente, facilitando o gerenciamento da carga de trabalho e garantindo o desempenho adequado do sistema conforme o número de usuários aumenta.
+Desvantagem: **Excesso de Microserviços:** Cada pequena funcionalidade do sistema deve ser implementada como um microserviço separado, mesmo que isso gere uma sobrecarga na comunicação entre os serviços e aumente a complexidade geral da arquitetura.
+
+
+
 
 
 
