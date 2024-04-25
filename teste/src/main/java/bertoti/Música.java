@@ -6,7 +6,7 @@ public class Música {
     private boolean sucesso;
 
     // Construtor
-    public Música(String genero, double tempo, boolean sucesso) {
+    public Música(String genero, int tempo, boolean sucesso) {
         this.genero = genero;
         this.tempo = tempo;
         this.sucesso = sucesso;

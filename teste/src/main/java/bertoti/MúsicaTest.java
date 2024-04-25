@@ -9,20 +9,20 @@ public class MúsicaTest {
     }
 
     public static void testGetGenero() {
-        Música música = new Música("Rock", 4.5, true);
+        Música música = new Música("Rock", 4, true);
         String genero = música.getGenero();
-        System.out.println("Teste testGetGenero: " + (genero.equals("Rock") ? "Passou" : "Falhou"));
+        System.out.println("\n" + "Teste Genero: " + (genero.equals("Rock") ? "Passou" : "Falhou"));
     }
 
     public static void testGetTempo() {
-        Música música = new Música("Pop", 3.2, false);
+        Música música = new Música("Pop", 3, false);
         double tempo = música.getTempo();
-        System.out.println("Teste testGetTempo: " + (tempo == 3.2 ? "Passou" : "Falhou"));
+        System.out.println("Teste Tempo: " + (tempo == 3.2 ? "Passou" : "Falhou"));
     }
 
     public static void testIsSucesso() {
-        Música música = new Música("Hip-Hop", 5.0, true);
+        Música música = new Música("Hip-Hop", 5, true);
         boolean sucesso = música.isSucesso();
-        System.out.println("Teste testIsSucesso: " + (sucesso ? "Passou" : "Falhou"));
+        System.out.println("Teste Sucesso: " + (sucesso ? "Passou" : "Falhou")+ "\n");
     }
 }

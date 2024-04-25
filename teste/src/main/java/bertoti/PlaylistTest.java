@@ -5,18 +5,18 @@ public class PlaylistTest {
     public static void main(String[] args) {
         testarGetMusica();
         testarGetCurtidas();
-        testarGetCantor();
+        testarGetartista();
     }
 
     public static void testarGetMusica() {
         // Cria uma instância de Playlist para teste
-        Playlist playlist = new Playlist(10, 1000, "Artista X");
+        Playlist playlist = new Playlist(9, 10, "Artista Taylor");
 
         // Testa o método getMusica()
         if (playlist.getMusica() == 10) {
-            System.out.println("Teste getMusica() (Playlist): PASSOU");
+            System.out.println("\n" + "Teste Musica: PASSOU");
         } else {
-            System.out.println("Teste getMusica() (Playlist): FALHOU");
+            System.out.println("\n" + "Teste Musica: FALHOU");
         }
     }
 
@@ -26,21 +26,21 @@ public class PlaylistTest {
 
         // Testa o método getCurtidas()
         if (playlist.getCurtidas() == 1000) {
-            System.out.println("Teste getCurtidas() (Playlist): PASSOU");
+            System.out.println("Teste Curtidas: PASSOU");
         } else {
-            System.out.println("Teste getCurtidas() (Playlist): FALHOU");
+            System.out.println("Teste Curtidas: FALHOU");
         }
     }
 
-    public static void testarGetCantor() {
+    public static void testarGetartista() {
         // Cria uma instância de Playlist para teste
         Playlist playlist = new Playlist(10, 1000, "Artista X");
 
-        // Testa o método getCantor()
-        if (playlist.getCantor().equals("Artista X")) {
-            System.out.println("Teste getCantor() (Playlist): PASSOU");
+        // Testa o método getartista()
+        if (playlist.getartista().equals("Artista X")) {
+            System.out.println("Teste artista: PASSOU"+ "\n");
         } else {
-            System.out.println("Teste getCantor() (Playlist): FALHOU");
+            System.out.println("Teste artista: FALHOU"+ "\n");
         }
     }
 }

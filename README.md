@@ -104,7 +104,7 @@ Spotify: Playlist - Usuarios - Musicas
 
 <img width="465" alt="image" src="https://github.com/BispoJPM/Bertoti/assets/142633184/07a28b8c-a0c7-46b4-8f5d-54cd0fcad642">
 
-
+![image](https://github.com/BispoJPM/Bertoti/assets/142633184/163edaa4-e476-4cf3-ba00-cc21eb96ba8e)
 
 
 

@@ -6,7 +6,7 @@ public class Usuario {
     private boolean assinante;
 
     // Construtor
-    public Usuario(String gosto, double tempo, boolean assinante) {
+    public Usuario(String gosto, int tempo, boolean assinante) {
         this.gosto = gosto;
         this.tempo = tempo;
         this.assinante = assinante;

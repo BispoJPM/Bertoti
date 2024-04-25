@@ -12,23 +12,23 @@ public class SpotifyTest {
 
         // Testa o método getMusica()
         if (spotify.getMusica().equals("Imagine")) {
-            System.out.println("Teste getMusica(): PASSOU");
+            System.out.println("\n" + "Teste Musica: PASSOU");
         } else {
-            System.out.println("Teste getMusica(): FALHOU");
+            System.out.println("\n" + "Teste Musica: FALHOU");
         }
 
         // Testa o método getUsuario()
         if (spotify.getUsuario() == 123.45) {
-            System.out.println("Teste getUsuario(): PASSOU");
+            System.out.println("Teste Usuario: PASSOU");
         } else {
-            System.out.println("Teste getUsuario(): FALHOU");
+            System.out.println("Teste Usuario: FALHOU");
         }
 
         // Testa o método getPlaylist()
         if (spotify.getPlaylist() == 1) {
-            System.out.println("Teste getPlaylist(): PASSOU");
+            System.out.println("Teste Playlist: PASSOU"+"\n");
         } else {
-            System.out.println("Teste getPlaylist(): FALHOU");
+            System.out.println("Teste Playlist: FALHOU"+"\n");
         }
     }
 }

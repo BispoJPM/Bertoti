@@ -3,13 +3,13 @@ package bertoti;
 public class Playlist {
     private int musica;
     private int curtidas;
-    private String cantor;
+    private String artista;
 
     // Construtor
-    public Playlist(int musica, int curtidas, String cantor) {
+    public Playlist(int musica, int curtidas, String artista) {
         this.musica = musica;
         this.curtidas = curtidas;
-        this.cantor = cantor;
+        this.artista = artista;
     }
 
     // Métodos getters
@@ -21,8 +21,8 @@ public class Playlist {
         return curtidas;
     }
 
-    public String getCantor() {
-        return cantor;
+    public String getartista() {
+        return artista;
     }
 }
 
