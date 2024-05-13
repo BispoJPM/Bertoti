@@ -1,6 +1,6 @@
 # Engenharia de Software<br>
 
-## Aula 1 - 19/02: Atividade 1
+## Atividade 1
 Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software : engineering after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming.
 
 We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth.
@@ -10,11 +10,7 @@ Comentário: A engenharia de software é algo que caminha mutuamente com o desev
 ### O que é engenharia de software?
 R: É algo que precisamos para desenvolver, gerir e manutenciar um aplicativo/projeto <br>
 
-## Aula 2 - 23/02:
-
-Debate
-
-## Aula 3 - 26/02: Atividade 2
+## Atividade 2
 
 De 3 exemplos de trade-off em softwares e explicá-los.
 
@@ -24,7 +20,7 @@ De 3 exemplos de trade-off em softwares e explicá-los.
 
 3. Entre rapidez no desenvolvimento e qualidade do código: Por vezes, é necessário escolher entre desenvolver um software rapidamente para atender a prazos apertados ou dedicar mais tempo para escrever um código mais limpo e de melhor qualidade. A pressa pode resultar em possíveis bugs e problemas de manutenção no futuro, enquanto a qualidade pode levar mais tempo para ser alcançada.
 
-## Aula 4 - 01/03: Atividade 3
+## Atividade 3
 
 Arquitetura: Layered Architecture Style
 Exemplo: Uma interface de usuários do facebook.
@@ -49,10 +45,6 @@ Justificativa: Podemos garantir que os dados estejam sempre atualizados em todas
 Arquitetura: Microservices Architecture
 Exemplo: Plataforma E-Commerce
 Justificativa: A flexibilidade traz benefícios em termos de agilidade e escalabilidade, mas a complexidade pode impactar negativamente a manutenção e a compreensão do sistema.
-
-## Aula 5 - 04/03
-
-Continuação da Atividade 3.
 
 Arquitetura: Layered Architecture Style
 Exemplo: Sistema de Gestão de Biblioteca
@@ -85,7 +77,7 @@ Vantagem: **Escalabilidade:** A arquitetura deve permitir que os microserviços 
 Desvantagem: **Excesso de Microserviços:** Cada pequena funcionalidade do sistema deve ser implementada como um microserviço separado, mesmo que isso gere uma sobrecarga na comunicação entre os serviços e aumente a complexidade geral da arquitetura.
 
 
-## Aula 6 - 11/03: Atividade 4
+## Atividade 4
 
 Sistema: Spotify
 Arquitetura: Microservices Architecture
@@ -98,13 +90,12 @@ Performance: O Spotify precisa garantir alta performance em termos de tempo de c
 - Escalabilidade: Com o aumento constante do número de usuários e do volume de dados gerados, o Spotify pode precisar garantir que sua plataforma seja escalável para lidar com o crescimento da demanda. Isso pode exigir investimentos em servidores adicionais e tecnologias de escalonamento horizontal, o que pode aumentar os custos de operação.
 - Usabilidade: Para oferecer uma experiência de usuário intuitiva e fácil de usar, o Spotify pode precisar investir em design de interface de usuário e testes de usabilidade. Isso pode resultar em um esforço adicional de desenvolvimento e alocar recursos que poderiam ser utilizados em outras atividades.
 
-## Atividade 5: Diagrama de Classe.
+## Diagrama de Classe.
 
 Spotify: Playlist - Usuarios - Musicas
 
-<img width="465" alt="image" src="https://github.com/BispoJPM/Bertoti/assets/142633184/07a28b8c-a0c7-46b4-8f5d-54cd0fcad642">
+![Diagrama](https://github.com/BispoJPM/Bertoti/assets/142633184/9de140e1-ac94-42bb-a1fb-d2f72ff36348)
 
-![image](https://github.com/BispoJPM/Bertoti/assets/142633184/163edaa4-e476-4cf3-ba00-cc21eb96ba8e)
 
 
 
