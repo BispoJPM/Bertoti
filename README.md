@@ -1,5 +1,6 @@
 # Engenharia de Software<br>
 
+![Bug](https://github.com/BispoJPM/Bertoti/assets/142633184/ebbcf243-6094-4897-84d2-c0a5f0cb021b)
 
 <details>
 <summary>ATIVIDADE 1</summary>
