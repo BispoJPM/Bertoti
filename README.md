@@ -1,26 +1,41 @@
 # Engenharia de Software<br>
 
-## Atividade 1
+
+<details>
+<summary>ATIVIDADE 1</summary>
+
+### Texto: O que é Engenharia de Software?
+
 Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software : engineering after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming.
 
 We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth.
 
-Comentário: A engenharia de software é algo que caminha mutuamente com o desevolvimento do projeto, precisamos de estar mais preocupados com a escala e a eficiência, tanto para o software que produzimos como para a organização que o produz.
+Comentário: É como construir uma casa você precisa ter um plano, mas também precisa gerenciar o tempo, lidar com mudanças e garantir que a estrutura seja sólida e durável, como se a programação fosse o desenho da planta da casa, enquanto a Engenharia de Software fosse o processo completo de construção, desde a fundação até os acabamentos.
 
 ### O que é engenharia de software?
-R: É algo que precisamos para desenvolver, gerir e manutenciar um aplicativo/projeto <br>
+R: A Engenharia de Software é a área que cuida da criação, desenvolvimento, manutenção e aperfeiçoamento de softwares. É como se fosse a "engenharia" por trás dos programas que usamos no dia a dia, desde aplicativos no celular até sistemas complexos em empresas. <br>
 
-## Atividade 2
+</details>
 
-De 3 exemplos de trade-off em softwares e explicá-los.
+<details>
+
+<summary>ATIVIDADE 2</summary>
+
+### De 3 exemplos de trade-off em softwares e explicá-los.
 
 1. Entre otimização de desempenho e consumo de recursos: Muitas vezes é necessário fazer um trade off entre a melhoria no desempenho do programa e o aumento no consumo de recursos do sistema. Por exemplo, aumentar o número de threads em um programa pode melhorar a velocidade de processamento, mas também pode aumentar o uso de memória e CPU.
 
 2. Entre segurança e usabilidade: Implementar medidas de segurança mais rigorosas e manter a facilidade de uso para os usuários. Por exemplo, exigir senhas complexas e autenticação de dois fatores pode aumentar a segurança de um sistema, mas também pode tornar o processo de login mais complicado para os usuários.
 
 3. Entre rapidez no desenvolvimento e qualidade do código: Por vezes, é necessário escolher entre desenvolver um software rapidamente para atender a prazos apertados ou dedicar mais tempo para escrever um código mais limpo e de melhor qualidade. A pressa pode resultar em possíveis bugs e problemas de manutenção no futuro, enquanto a qualidade pode levar mais tempo para ser alcançada.
+</details>
 
-## Atividade 3
+
+<details>
+
+<summary>ATIVIDADE 3</summary>
+
+### Um exemplo de cada arquitetura e justifique.
 
 Arquitetura: Layered Architecture Style
 Exemplo: Uma interface de usuários do facebook.
@@ -76,8 +91,14 @@ Exemplo: Plataforma de Delivery de Alimentos
 Vantagem: **Escalabilidade:** A arquitetura deve permitir que os microserviços sejam escalados de forma independente, facilitando o gerenciamento da carga de trabalho e garantindo o desempenho adequado do sistema conforme o número de usuários aumenta.
 Desvantagem: **Excesso de Microserviços:** Cada pequena funcionalidade do sistema deve ser implementada como um microserviço separado, mesmo que isso gere uma sobrecarga na comunicação entre os serviços e aumente a complexidade geral da arquitetura.
 
+</details>
 
-## Atividade 4
+
+<details>
+
+<summary>ATIVIDADE 4</summary>
+
+### Escolha uma arquitetura e ustifique o motivo
 
 Sistema: Spotify
 Arquitetura: Microservices Architecture
@@ -89,12 +110,18 @@ Performance: O Spotify precisa garantir alta performance em termos de tempo de c
 - Confiabilidade: Para garantir que o serviço do Spotify seja sempre disponível para os usuários, a plataforma pode precisar investir em infraestrutura de redundância e sistemas de backup. Isso pode resultar em um aumento nos custos operacionais e na complexidade da manutenção da plataforma.
 - Escalabilidade: Com o aumento constante do número de usuários e do volume de dados gerados, o Spotify pode precisar garantir que sua plataforma seja escalável para lidar com o crescimento da demanda. Isso pode exigir investimentos em servidores adicionais e tecnologias de escalonamento horizontal, o que pode aumentar os custos de operação.
 - Usabilidade: Para oferecer uma experiência de usuário intuitiva e fácil de usar, o Spotify pode precisar investir em design de interface de usuário e testes de usabilidade. Isso pode resultar em um esforço adicional de desenvolvimento e alocar recursos que poderiam ser utilizados em outras atividades.
+</details>
 
-## Diagrama de Classe.
+<details>
 
+<summary>Diagrama de Classe</summary>
+
+### Faça um diagrama baseado na sua arquitetura acima.
 Spotify: Playlist - Usuarios - Musicas
 
-![Diagrama](https://github.com/BispoJPM/Bertoti/assets/142633184/9de140e1-ac94-42bb-a1fb-d2f72ff36348)
+![Diagrama](https://github.com/BispoJPM/Bertoti/assets/142633184/783dddf3-7fce-4335-838d-40ae249e25c7)
+
+</details>
 
 
 
