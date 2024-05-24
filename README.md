@@ -122,11 +122,15 @@ Spotify: Playlist - Usuarios - Musicas
 
 </details>
 
+<details>
+
+<summary>Vídeo</summary>
 
 
+https://github.com/BispoJPM/Bertoti/assets/142633184/16008f4a-9c46-41b7-9245-c2b701006e97
 
 
-
+</details>
 
 
 
