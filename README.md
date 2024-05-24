@@ -118,7 +118,7 @@ Performance: O Spotify precisa garantir alta performance em termos de tempo de c
 ### Faça um diagrama baseado na sua arquitetura acima.
 Spotify: Playlist - Usuarios - Musicas
 
-![Diagrama](https://github.com/BispoJPM/Bertoti/assets/142633184/783dddf3-7fce-4335-838d-40ae249e25c7)
+![Diagrama](https://github.com/BispoJPM/Bertoti/assets/142633184/8dc4b34b-cbf6-44ff-89cf-870ff3be42af)
 
 </details>
 
