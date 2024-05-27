@@ -9,10 +9,11 @@ Within Google, we sometimes say, “Software engineering is programming integrat
 
 We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth.
 
-Comentário: É como construir uma casa você precisa ter um plano, mas também precisa gerenciar o tempo, lidar com mudanças e garantir que a estrutura seja sólida e durável, como se a programação fosse o desenho da planta da casa, enquanto a Engenharia de Software fosse o processo completo de construção, desde a fundação até os acabamentos.
+### Comentário: 
+* O texto destaca que a engenharia de software difere da programação em três aspectos cruciais: tempo, escala e trade-offs. Tempo envolve planejar para a manutenção e evolução futura do software. Escala refere-se à necessidade de desenvolver sistemas que possam crescer e lidar com grandes volumes de usuários e dados. Trade-offs são as decisões complexas que os engenheiros de software precisam tomar, equilibrando fatores como desempenho e manutenibilidade. Essas diferenças mostram como a engenharia de software é uma prática mais abrangente e estratégica.
 
 ### O que é engenharia de software?
-R: A Engenharia de Software é a área que cuida da criação, desenvolvimento, manutenção e aperfeiçoamento de softwares. É como se fosse a "engenharia" por trás dos programas que usamos no dia a dia, desde aplicativos no celular até sistemas complexos em empresas. <br>
+R: Engenharia de software é uma disciplina da engenharia que se concentra na aplicação de princípios, métodos e ferramentas para projetar, desenvolver, testar, manter e gerenciar sistemas de software complexos. Ela abrange todo o ciclo de vida do software, desde a concepção inicial até a desativação, com o objetivo de criar software de alta qualidade, eficiente, seguro e escalável. A engenharia de software busca resolver problemas práticos e atender às necessidades dos usuários e das organizações, utilizando abordagens sistemáticas e disciplinadas
 
 </details>
 
@@ -36,59 +37,92 @@ R: A Engenharia de Software é a área que cuida da criação, desenvolvimento, 
 
 ### Um exemplo de cada arquitetura e justifique.
 
-Arquitetura: Layered Architecture Style
-Exemplo: Uma interface de usuários do facebook.
-Justificativa: Desenvolver uma interface desse tipo para que não requeira nenhuma ou quase nenhuma experiencia do usuario final, com um design e simplicidade elevados, demanda um alto custo de investimento.
+##### Arquitetura em Camadas: Simplicidade e Escalabilidade
+![img_1.png](img_1.png)  
+* A arquitetura em camadas é um estilo de design de software que divide um aplicativo em camadas distintas. Cada camada é responsável por uma função específica e se comunica com as outras camadas por meio de interfaces bem definidas. Esse estilo de arquitetura é frequentemente usado para aplicativos que precisam ser fáceis de usar e manter.
 
-Arquitetura: Pipeline Architecture Style
-Exemplo: Desenvolvimento de um sistema de processamento de dados.  
-Justificativa: Como essa arquitetura é dividida em estagios, podemos fazer alguns aos mesmo tempo e acabar acelerando o processo.
+- A arquitetura em camadas promove a simplicidade de várias maneiras:
 
-Arquitetura: Microkernel Architecture Style
-Exemplo: Um sistema de menu geral.
-Justificativa: O nucleo do software não é mostrado, apenas os serviços adicionais, para redirecionamento para abas e afins.
+    - Modularidade: As camadas são módulos independentes que podem ser desenvolvidos, testados e implantados separadamente. Isso facilita o gerenciamento e a manutenção do código-base.
+Separação de preocupações: Cada camada é responsável por uma função específica, o que facilita o entendimento do código e torna mais fácil para os desenvolvedores se concentrarem em uma área específica.
+Reutilização: As camadas podem ser reutilizadas em diferentes aplicativos, o que pode reduzir o tempo e o custo de desenvolvimento.
 
-Arquitetura: Service-Based Architecture Style
-Exempo: Aplicativo de delivery de comida.
-Justificativa: Em um unico aplicativo, os recursos são independentes um do outro, então podemos fazer pedidos, alterar entre os restaurantes e afins, a rapidez na parte da comunicação e independencia dos componentes é algo que essa arquitetura tem.
+- A arquitetura em camadas pode ser escalonada de várias maneiras:
 
-Arquitetura: Event-Driven Architecture Style
-Exemplo: Notficação em tempo real.  
-Justificativa: Podemos garantir que os dados estejam sempre atualizados em todas as partes do sistema, porém pode limitar a escabilidade do sistema.Para não limitar podemos fazer com que o sistema lide com um grande volume de eventos de forma mais eficiente.
+    - Escalabilidade horizontal: Camadas adicionais podem ser adicionadas para aumentar a capacidade do sistema. Por exemplo, uma camada de cache pode ser adicionada para reduzir o tempo de resposta do sistema.
+Escalabilidade vertical: Os recursos das camadas existentes podem ser aumentados. Por exemplo, o hardware ou software de um servidor pode ser atualizado para aumentar seu desempenho.
 
-Arquitetura: Microservices Architecture
-Exemplo: Plataforma E-Commerce
-Justificativa: A flexibilidade traz benefícios em termos de agilidade e escalabilidade, mas a complexidade pode impactar negativamente a manutenção e a compreensão do sistema.
+#### Arquitetura de Pipeline: Simplicidade e Escalabilidade
+![img_2.png](img_2.png)
 
-Arquitetura: Layered Architecture Style
-Exemplo: Sistema de Gestão de Biblioteca
-Vantagem: **Eficiência:** O sistema deve ser capaz de lidar com um grande volume de transações simultâneas de forma eficiente, mantendo baixo tempo de resposta para os usuários.
-Desvantagem: **Manutenibilidade:** O sistema deve ser facilmente extensível e modificável por desenvolvedores sem a necessidade de documentação ou treinamento adicional.
+- A arquitetura de pipeline é um estilo de design de software que divide uma tarefa em etapas menores e sequenciais, que são executadas em paralelo. Essa abordagem visa melhorar o desempenho e a eficiência do sistema, reduzindo o tempo de espera e aumentando a taxa de transferência.
+- A arquitetura de pipeline é considerada um estilo simples por vários motivos:
+  - Modularidade: O sistema é dividido em módulos independentes e interconectados, facilitando o desenvolvimento, a manutenção e a testabilidade.
+  Clareza: O fluxo de dados e o comportamento do sistema são fáceis de entender e visualizar, pois as etapas são bem definidas e sequenciais.
+  Predictabilidade: O comportamento do sistema é previsível, pois as etapas são executadas em uma ordem predefinida.
+- A arquitetura de pipeline também é considerada escalável por vários motivos:
+  - Paralelismo: As etapas do pipeline podem ser executadas em paralelo, aproveitando recursos de hardware e software disponíveis.
+    Adição de etapas: Novas etapas podem ser facilmente adicionadas ao pipeline para atender a novos requisitos funcionais.
+    Replicação: O pipeline pode ser replicado em vários servidores para aumentar a capacidade de processamento.
 
-Arquitetura: Pipeline Architecture Style
-Exemplo: Sistema de Análise de Dados em Tempo Real
-Vantagem: **Escalabilidade:** O sistema deve ser capaz de lidar com o aumento do volume de dados processados no pipeline, garantindo que o desempenho não seja comprometido conforme mais dados são processados.
-Desvantagem: **Flexibilidade:** O sistema deve ter a capacidade de alterar a ordem das etapas do pipeline de forma dinâmica, sem a necessidade de intervenção manual ou reinicialização do sistema.
+#### Arquitetura Microkernel: Overall Cost e Elasticity
+![img_3.png](img_3.png)
+* A arquitetura microkernel é um tipo de design de software que separa o núcleo do sistema operacional em um pequeno conjunto de serviços essenciais e os demais componentes em processos separados. Essa abordagem visa melhorar a modularidade, a portabilidade e a segurança do sistema.
+- A arquitetura microkernel é considerada uma opção de baixo custo por vários motivos:
+  - Simplicidade: O núcleo do sistema é pequeno e simples, o que reduz o custo de desenvolvimento e manutenção.
+    Modularidade: Os componentes do sistema são independentes e podem ser facilmente substituídos ou atualizados, o que reduz o custo de upgrades.
+    Portabilidade: O núcleo do sistema pode ser facilmente portado para diferentes plataformas de hardware, o que reduz o custo de desenvolvimento para diferentes ambientes.
+- A arquitetura microkernel também é considerada elástica por vários motivos:
+  - Escalabilidade: O sistema pode ser facilmente escalado adicionando ou removendo recursos de hardware, como CPUs e memória.
+    Disponibilidade: Os componentes do sistema podem ser reiniciados ou substituídos sem afetar o funcionamento do núcleo, o que melhora a disponibilidade do sistema.
+    Tolerância a falhas: O sistema pode tolerar falhas de hardware ou software, pois os componentes são independentes e podem ser reiniciados ou substituídos sem afetar o funcionamento do núcleo.
 
-Arquitetura: Microkernel Architecture Style
-Exemplo: Plataforma de E-commerce Modular
-Vantagem: **Desacoplamento:** Os módulos do sistema devem ser altamente desacoplados, permitindo que as alterações em um módulo não afetem diretamente os demais. Isso facilita a manutenção e evolução do sistema.
-Desvantagem: **Desempenho Absoluto:** O sistema deve garantir o melhor desempenho possível em todas as situações, sem comprometer em nenhum momento a velocidade de processamento.
 
-Arquitetura: Service-Based Architecture Style
-Exemplo: Plataforma de Streaming de Vídeo
-Vantagem: **Escalabilidade:** A arquitetura deve ser capaz de escalar horizontalmente, permitindo que novos serviços sejam adicionados e dimensionados de forma independente, garantindo o desempenho adequado do sistema.
-Desvantagem: **Otimização Extrema:** Todos os serviços devem ser otimizados ao máximo, mesmo que isso demande um esforço significativo e gere complexidade desnecessária no desenvolvimento.
+#### Arquitetura Baseada em Serviços: Overall Cost e Elasticity
+![img_4.png](img_4.png)  
+* A arquitetura baseada em serviços (SOA) é um estilo de design de software que estrutura um sistema como uma coleção de serviços independentes e interconectados. Essa abordagem visa melhorar a modularidade, flexibilidade, escalabilidade e capacidade de reuso do sistema.
+- A arquitetura SOA é considerada uma opção de custo total de propriedade (TCO) relativamente baixo por vários motivos:
+  - Modularidade: Os serviços são unidades independentes e podem ser facilmente desenvolvidos, implantados e mantidos separadamente, o que reduz a complexidade e o custo geral do sistema.
+    Reuso: Os serviços podem ser reutilizados em diferentes aplicações, o que reduz o tempo e o custo de desenvolvimento.
+    Escalabilidade: Os serviços podem ser escalados horizontalmente adicionando ou removendo servidores, o que otimiza o uso dos recursos de hardware e software e reduz custos.
+    Flexibilidade: A arquitetura SOA é altamente flexível e pode ser facilmente adaptada para atender às mudanças nos requisitos do negócio, o que reduz a necessidade de grandes reformas no sistema e os custos associados a elas.
+- A arquitetura SOA é considerada altamente elástica por vários motivos:
+  - Escalabilidade horizontal: Os serviços podem ser escalados horizontalmente adicionando ou removendo servidores, o que permite que o sistema atenda a picos de demanda sem necessidade de grandes investimentos em hardware.
+    Carregamento de trabalho distribuído: Os serviços podem ser distribuídos em diferentes servidores, o que balanceia o carregamento de trabalho e melhora o desempenho geral do sistema.
+    Tolerância a falhas: Os serviços são independentes e podem ser reiniciados ou substituídos sem afetar o funcionamento do sistema como um todo, o que aumenta a disponibilidade e a confiabilidade do sistema.
+    Adaptabilidade: A arquitetura SOA é altamente adaptável e pode ser facilmente modificada para atender às mudanças nos requisitos do negócio, o que permite que o sistema se adapte às mudanças sem grandes interrupções ou perdas de desempenho.
 
-Arquitetura: Event-Driven Architecture Style
-Exemplo: Plataforma de Gestão de Eventos
-Vantagem: **Resiliência:** A arquitetura deve ser resiliente, permitindo que o sistema se recupere automaticamente de falhas de comunicação entre os eventos e garanta a integridade dos dados em caso de eventos perdidos ou atrasados.
-Desvantagem: **Complexidade Extrema:** As interações entre os eventos devem ser extremamente complexas e intricadas, mesmo que isso torne a manutenção e o entendimento do sistema mais difíceis para os desenvolvedores.
+#### Arquitetura Serverless: Simplicity e Evolutionary
+![img_5.png](img_5.png)
+* A arquitetura serverless é um estilo de design de software que utiliza serviços de computação em nuvem para executar funções sem a necessidade de gerenciar servidores. Essa abordagem visa simplificar o desenvolvimento e a implantação de aplicações, reduzindo a necessidade de infraestrutura e operações.
+- A arquitetura serverless é considerada uma opção de alta simplicidade por vários motivos:
+  - Abstração de infraestrutura: Os desenvolvedores não precisam se preocupar com a provisionamento, configuração e gerenciamento de servidores, pois esses aspectos são gerenciados pelo provedor de nuvem.
+    Foco no código: Os desenvolvedores podem se concentrar em escrever o código das suas aplicações, sem se preocupar com a infraestrutura subjacente.
+    Escalabilidade automática: As aplicações serverless escalam automaticamente para cima ou para baixo em resposta à demanda, sem necessidade de intervenção manual.
+    Pagamento por uso: Os desenvolvedores pagam apenas pelos recursos que usam, o que pode reduzir significativamente os custos.
+- A arquitetura serverless também é considerada altamente evolutiva por vários motivos:
+  - Desenvolvimento incremental: As aplicações serverless podem ser desenvolvidas e implantadas incrementalmente, em pequenas iterações.
+    Facilidade de teste: As aplicações serverless são fáceis de testar, pois não há necessidade de configurar e gerenciar servidores de teste.
+    Implementação rápida: As aplicações serverless podem ser implantadas rapidamente, pois não há necessidade de provisionar ou configurar servidores.
+    Facilidade de refatoração: As aplicações serverless são fáceis de refatorar, pois o código é independente da infraestrutura.
 
-Arquitetura: Microservices Architecture
-Exemplo: Plataforma de Delivery de Alimentos
-Vantagem: **Escalabilidade:** A arquitetura deve permitir que os microserviços sejam escalados de forma independente, facilitando o gerenciamento da carga de trabalho e garantindo o desempenho adequado do sistema conforme o número de usuários aumenta.
-Desvantagem: **Excesso de Microserviços:** Cada pequena funcionalidade do sistema deve ser implementada como um microserviço separado, mesmo que isso gere uma sobrecarga na comunicação entre os serviços e aumente a complexidade geral da arquitetura.
+#### Arquitetura de Microsserviços: Modularidade e Overall Cost
+![img_6.png](img_6.png)
+* A arquitetura de microsserviços é um estilo de design de software que estrutura um sistema como uma coleção de serviços independentes e interconectados. Essa abordagem visa melhorar a modularidade, flexibilidade, escalabilidade e capacidade de reuso do sistema.
+- A arquitetura de microsserviços é considerada altamente modular por vários motivos:
+  - Serviços independentes: Os microsserviços são unidades autônomas e podem ser desenvolvidos, implantados e mantidos separadamente, o que facilita o gerenciamento e a evolução do sistema.
+    Coesão forte: Cada microsserviço é responsável por uma única função bem definida, o que facilita o entendimento e a manutenção do código.
+    Limites de serviço claros: Os limites entre os microsserviços são bem definidos, o que facilita a comunicação e o isolamento de falhas.
+- O overall cost da arquitetura de microsserviços pode ser variável, dependendo da implementação específica. De um lado, os microsserviços podem reduzir o overall cost em alguns casos:
+  - Desenvolvimento incremental: Os microsserviços podem ser desenvolvidos e implantados incrementalmente, em pequenas iterações, o que pode reduzir o custo total do projeto.
+    Reuso de código: Os microsserviços podem ser reutilizados em diferentes aplicações, o que pode reduzir o tempo e o custo de desenvolvimento.
+    Escalabilidade horizontal: Os microsserviços podem ser escalados horizontalmente adicionando ou removendo servidores, o que otimiza o uso dos recursos de hardware e software e reduz custos.
+- Do outro lado, os microsserviços podem aumentar o overall cost em outros casos:
+  - Complexidade: A arquitetura de microsserviços pode ser mais complexa de implementar e gerenciar do que uma arquitetura monolítica, o que pode aumentar os custos de operação.
+    Infraestrutura: Os microsserviços podem exigir mais infraestrutura do que uma arquitetura monolítica, o que pode aumentar os custos de hardware e software.
+    Monitoramento: O monitoramento do desempenho e da utilização dos microsserviços pode ser mais desafiador do que o monitoramento de uma arquitetura monolítica, o que pode aumentar os custos de operação.
+
+
 
 </details>
 
