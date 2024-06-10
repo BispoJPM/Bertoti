@@ -160,7 +160,8 @@ Spotify: Playlist - Usuarios - Musicas
 
 <summary>Diagrama de Caso de Uso</summary>
 
-![image](https://github.com/BispoJPM/Bertoti/assets/142633184/d707722d-b8de-4b5d-8a57-8bba710e78ea)
+![image](https://github.com/BispoJPM/Bertoti/assets/142633184/11db960c-43c2-4bf2-a22a-6c0c0802f66c)
+
 
 </details>
 
