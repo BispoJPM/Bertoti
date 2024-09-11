@@ -1,5 +1,6 @@
-# Engenharia de Software<br>
-
+# Git para as aulas do Bertoti<br>
+<details>
+<summary>Engenharia de Software</summary>
 <details>
 <summary>ATIVIDADE 1</summary>
 
@@ -164,8 +165,11 @@ Spotify: Playlist - Usuarios - Musicas
 
 
 </details>
+</details>
 
-
+<details>
+    <summary>Lab III</summary>
+</details>
 
 
 
