@@ -55,46 +55,44 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 12px;
-    width: 100%; /* Ocupa toda a largura disponível */
+    width: 100%;
     color: white;
 }
 
-button.addBookButton,
+button.addBookButton, 
 button.updateBookButton {
-    background-color: #2196F3; /* Azul padrão */
+    background-color: #2196F3;
 }
 
-button.addBookButton:hover,
+button.addBookButton:hover, 
 button.updateBookButton:hover {
-    background-color: #1e88e5; /* Azul mais escuro para hover */
+    background-color: #1e88e5;
 }
 
 
-/* Estilo específico para botões de seleção e exclusão */
-button.selectBookButton,
+
+button.selectBookButton, 
 button.deleteBookButton {
-    background-color: #4CAF50; /* Verde padrão para selecionar */
+    background-color: #4CAF50;
 }
 
 button.selectBookButton:hover {
-    background-color: #45a049; /* Verde mais escuro para hover */
+    background-color: #45a049;
 }
 
 button.deleteBookButton {
-    background-color: #f44336; /* Vermelho padrão para excluir */
+    background-color: #f44336;
 }
 
 button.deleteBookButton:hover {
-    background-color: #e53935; /* Vermelho mais escuro para hover */
+    background-color: #e53935;
 }
 
-/* Centraliza os botões na coluna de ações */
 td button {
     display: block;
-    width: 100px; /* Largura dos botões */
-    margin: 5px auto; /* Centraliza os botões e adiciona margem */
+    width: 100px;
+    margin: 5px auto;
 }
-
 
 .card {
     background-color: #f9f9f9;

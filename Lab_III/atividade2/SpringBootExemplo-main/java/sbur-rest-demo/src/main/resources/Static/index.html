@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API de Chás</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>API de Chás</h2>
+        </header>
+        
+        <main>
+            <section>
+                <h3>Lista de Chás</h3>
+                <table id="booksTable">
+                    <thead>
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Sabor</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="card">
+                <h2>Atualizar Chá</h2>
+                <label for="updateId">ID do Chá:</label>
+                <input type="text" id="updateId" readonly>
+                
+                <label for="updateTitle">Novo Tipo:</label>
+                <input type="text" id="updateTitle">
+                
+                <label for="updateAuthor">Novo Sabor:</label>
+                <input type="text" id="updateAuthor">
+                
+                <button id="updateBookButton" class="updateBookButton">Atualizar Chá</button>
+            </section>
+            
+            <section class="card">
+                <h2>Adicionar Chá</h2>
+                <form id="addBookForm">
+                    <label for="title">Tipo:</label>
+                    <input type="text" id="title" required>
+                    
+                    <label for="author">Sabor:</label>
+                    <input type="text" id="author" required>
+                    
+                    <button type="submit" class="addBookButton">Adicionar Chá</button>
+                </form>
+            </section>
+
+            
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 API de Chá. by Bispo.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

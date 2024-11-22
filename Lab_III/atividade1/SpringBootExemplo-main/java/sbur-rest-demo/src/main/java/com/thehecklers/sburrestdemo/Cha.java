@@ -1,26 +1,20 @@
 package com.thehecklers.sburrestdemo;
 
+import java.util.UUID;
+
 public class Cha {
     private final String id;
-    private String nome;
     private String tipo;
+    private String sabor;
 
-    public Cha(String id, String nome, String tipo) {
-        this.id = id;
-        this.nome = nome;
+    public Cha(String tipo, String sabor) {
+        this.id = UUID.randomUUID().toString();
         this.tipo = tipo;
+        this.sabor = sabor;
     }
 
     public String getId() {
         return id;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
     }
 
     public String getTipo() {
@@ -29,5 +23,13 @@ public class Cha {
 
     public void setTipo(String tipo) {
         this.tipo = tipo;
+    }
+
+    public String getSabor() {
+        return sabor;
+    }
+
+    public void setSabor(String sabor) {
+        this.sabor = sabor;
     }
 }
