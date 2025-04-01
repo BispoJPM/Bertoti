@@ -1,30 +1,30 @@
-# Olá, Me chamo João Pedro! 👋
-## Introdução
-
-<div align="left" style="display: flex; align-items: center; gap: 20px;">
-    <img src="https://github.com/user-attachments/assets/55824b8e-c777-44f4-8b13-cc32f11dd1da" width="220" style="border-radius: 8px; border: 1px solid #e1e4e8;" alt="João Pedro">
-    <div>
-        <p>Sou técnico formado em Administração pela ETEC Machado de Assís e atualmente trabalho como Auxiliar do Controle Interno na Força Aérea Brasileira. Estou ingressando na área de tecnologia como estudante de:</p>
-        <ul>
-            <li>Banco de Dados na Fatec Jessen Vidal</li>
-            <li>Análise e Desenvolvimento de Sistemas na UniFatecie</li>
-        </ul>
-    </div>
+<div style="text-align: center;" align="center">
+  <h2> Olá, Me chamo João Pedro! :wave: </h2>
 </div>
+ 
 
-## Contatos 📫
+<img align="left" src="https://github.com/user-attachments/assets/55824b8e-c777-44f4-8b13-cc32f11dd1da" width="200" style="margin-right: 20px;">
+<br>
+Sou técnico formado em Administração pela ETEC Machado de Assís e atualmente atuo como Auxiliar do Controle Interno na Força Aérea Brasileira. Estou em transição de carreira para a área de tecnologia, cursando: 
+<br><br>
+• Banco de Dados na Fatec Jessen Vidal <br> 
+• Análise e Desenvolvimento de Sistemas na Unifatecie  
+
+<br><br><br>
+
+### Contatos 📫
 
 <a href="https://github.com/BispoJPM/BispoJPM" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-563369181/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
-## Meus Principais Conhecimentos 💻
+### Meus Principais Conhecimentos 💻
 
 - Foco atual: **Java** e **MySQL** (desenvolvimento de aplicações e gestão de bancos de dados).
 - Experiência básica: Python e C++.
 
----
+#
 
-### Em 2024-2:
+## Em 2024-2:
 
 - *O projeto desenvolvido foi uma **Ferramenta de Captura e Armazenamento de Notícias Estratégicas e Dados Relevantes Associados**.*
 
@@ -53,7 +53,7 @@
   - ⚡ Web Scraping</strong> - Captura automática de notícias diretamente dos portais cadastrados
   - 🗃️ Gestão de Dados</strong> - Armazenamento estruturado com consultas otimizadas
     
----
+#
 
 ## Tecnologias Utilizadas 🛠️
 
@@ -62,7 +62,9 @@
 | **Backend**     |![Java](https://img.shields.io/badge/Java-22-%23ED8B00?logo=openjdk) <br/> ![Spring](https://img.shields.io/badge/Spring_Boot-3.3.3-%236DB33F) <br/> ![JPA](https://img.shields.io/badge/JPA-3.3.3-%236DB33F) | Linguagem principal com robustez e desempenho<br/>Framework para construção da aplicação web<br/>Persistência eficiente com MySQL | 
 | **Frontend**    |![Thymeleaf](https://img.shields.io/badge/Thymeleaf-3.1-%23005F0F)                                                                                                                                                                         | Renderização dinâmica de páginas HTML                                                                                             |
 | **Banco de Dados** |![MySQL](https://img.shields.io/badge/MySQL-8.0-%234479A1)                                                                                                                                                                                    | Armazenamento estruturado de notícias                                                                                             |
-| **Ferramentas** |![Jsoup](https://img.shields.io/badge/Jsoup-1.16-%2300599C)                                                                                                                                                                                 | Web scraping em portais de notícias                                                                                               |
+| **Ferramentas** |![Jsoup](https://img.shields.io/badge/Jsoup-1.16-%2300599C)                                                                                                                                                                                 | Web scraping em portais de notícias  
+
+#
 
 ## Contribuições Pessoais ✨
 
@@ -75,8 +77,6 @@
 - Reestruturação do banco de dados: Participei da reconfiguração do banco de dados para melhorar a estrutura e a integridade dos dados.
 - Web Scraping: Desenvolvi soluções para o processo de extração de dados utilizando Jsoup, garantindo uma coleta eficiente de informações.
 - Padronização das colunas do banco: Trabalhei na normalização e padronização dos dados no banco de dados para garantir maior coerência entre os registros.
-
----
 
 ## Hard Skills
 
