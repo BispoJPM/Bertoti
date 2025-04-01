@@ -82,11 +82,10 @@ Sou técnico formado em Administração pela ETEC Machado de Assís e atualmente
 
 | Habilidade Técnica       | Proeficiência | Contribuições Específicas                                             |
 |--------------------------|---------------|-----------------------------------------------------------------------|
-| **Java/Spring Boot**    | ⭐⭐⭐           | • Desenvolvimento e otimização de filtros na API para busca de notícias por tags       |
-| **Banco de Dados <br/>(MySQL)**       | ⭐⭐            | • Reconfiguração da estrutura do banco para melhor integridade dos dados                    |
-| **Web Scraping<br/>(Coleta de Dados)**      | ⭐             | • Desenvolvimento de soluções para extração automática de notícias         |
-| **Front-end (Thymeleaf)**| ⭐⭐            | • Melhorias na exibição das mensagens de erro para maior clareza ao usuário              |
-| **Otimização de Performance**          | ⭐⭐⭐           | • Redução no tempo de resposta<br>• Consultas mais eficientes |
+| **Java/Spring Boot**    | Iniciante +           | • Desenvolvimento e otimização de filtros na API para busca de notícias por tags       |
+| **Banco de Dados <br/>(MySQL)**       | Iniciante           | • Reconfiguração da estrutura do banco para melhor integridade dos dados                    |
+| **Web Scraping<br/>(Coleta de Dados)**      | Iniciante            | • Desenvolvimento de soluções para extração automática de notícias         |
+| **Front-end (Thymeleaf)**| Iniciante            | • Melhorias na exibição das mensagens de erro para maior clareza ao usuário              |
 
 ## Soft Skills
 
