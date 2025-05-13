@@ -66,17 +66,30 @@ Sou técnico formado em Administração pela ETEC Machado de Assís e atualmente
 
 #
 
-## Contribuições Pessoais ✨
+## Contribuições Pessoais 👤
 
-*Durante minha participação no projeto, atuei ativamente na otimização e desenvolvimento de funcionalidades essenciais, focadas principalmente na melhoria da consulta de notícias, padronização do banco de dados e refinamento das regras de negócio. Minhas principais contribuições incluem:*
+* Durante minha atuação no projeto, contribuí de forma significativa para o desenvolvimento backend da aplicação, com foco na melhoria da consulta de dados, estruturação do banco de dados, refinamento de regras de negócio e integração com fontes externas de informação. Abaixo, detalho minhas principais contribuições técnicas:
 
-- Refinamento da busca de notícias: Desenvolvi e otimizei filtros para permitir a busca por tags, melhorando a experiência do usuário ao localizar informações específicas.
-- Organização da ordenação das notícias: Estruturei a busca para priorizar a exibição por data de inclusão no banco, garantindo clareza na apresentação dos dados.
-- Correção de mensagens de erro: Ajustei a exibição de mensagens de erro para evitar inconsistências, garantindo uma comunicação mais eficaz para o usuário.
-- Otimização dos filtros da API: Trabalhei na melhoria da performance dos filtros aplicados na API para melhor eficiência na busca de dados.
-- Reestruturação do banco de dados: Participei da reconfiguração do banco de dados para melhorar a estrutura e a integridade dos dados.
-- Web Scraping: Desenvolvi soluções para o processo de extração de dados utilizando Jsoup, garantindo uma coleta eficiente de informações.
-- Padronização das colunas do banco: Trabalhei na normalização e padronização dos dados no banco de dados para garantir maior coerência entre os registros.
+🔍 Refinamento da busca de notícias por tags
+* Implementei filtros personalizados no endpoint de listagem de notícias, permitindo que o sistema filtrasse as notícias com base nas tags associadas ao portal selecionado. Isso foi feito utilizando lógica condicional no serviço, respeitando a presença ou ausência de parâmetros de filtro, tornando a busca mais flexível e intuitiva para o usuário. Essa melhoria aumentou a relevância dos resultados retornados pela API e deixou a navegação mais precisa.
+
+📅 Organização da ordenação das notícias
+* Modifiquei a ordenação padrão das notícias retornadas pela API para que fossem exibidas com base na data de inclusão no banco de dados, em ordem decrescente. Essa alteração foi feita diretamente no repositório JPA, garantindo que as notícias mais recentes fossem sempre exibidas primeiro. Essa abordagem melhorou a organização visual e a utilidade prática da listagem para o usuário final.
+
+🛑 Correção e padronização de mensagens de erro
+* Implementei melhorias no tratamento de exceções, criando mensagens de erro mais claras, consistentes e amigáveis ao usuário. Corrigi respostas genéricas e pouco descritivas, e tratei casos como ausência de dados, falhas de validação ou erros de requisição com mensagens específicas, utilizando @ExceptionHandler e respostas com ResponseEntity. Isso trouxe maior confiabilidade e compreensão ao comportamento da API.
+
+⚙️ Otimização dos filtros da API
+* Realizei melhorias no desempenho de consultas da API, especialmente nos pontos de busca por notícias com filtros. Isso incluiu a revisão de consultas no banco, evitando loops desnecessários e refinando os métodos para utilizar consultas derivadas do Spring Data JPA. Com isso, a API passou a responder de forma mais eficiente mesmo com volume maior de dados.
+
+🗃️ Reestruturação do banco de dados
+* Atuei na reorganização das entidades e dos relacionamentos entre elas, com o objetivo de tornar a estrutura mais coerente, relacional e aderente às regras de negócio. Refatorei relações entre Portal, Noticia e Tag, garantindo integridade referencial e eliminando redundâncias. Também revisei as entidades e repositórios para refletir corretamente os novos relacionamentos e restrições.
+
+🌐 Web Scraping com Jsoup
+* Implementei o processo de extração de notícias externas utilizando a biblioteca Jsoup, integrando essa funcionalidade ao método de scraping da aplicação. Isso permitiu buscar e processar dados de páginas HTML com mais controle sobre os elementos extraídos. Estruturei a coleta de informações como título, conteúdo e link da notícia, tratando as exceções e salvando os dados em formato padronizado no banco.
+
+📏 Padronização das colunas do banco
+* Trabalhei na padronização e normalização dos dados nas entidades do banco, garantindo que campos como nomes de portais, tags e datas fossem inseridos em formato consistente. Essa prática evitou duplicidade lógica de registros e facilitou tanto a busca quanto a exibição das informações, contribuindo para uma base de dados mais limpa e confiável.
 
 ## Hard Skills
 
