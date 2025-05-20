@@ -66,7 +66,7 @@ Sou técnico formado em Administração pela ETEC Machado de Assís e atualmente
 
 #
 
-## Contribuições Pessoais ✨
+## Contribuições Pessoais 👤
 
 *Durante minha participação no projeto, atuei ativamente na otimização e desenvolvimento de funcionalidades essenciais, focadas principalmente na melhoria da consulta de notícias, padronização do banco de dados e refinamento das regras de negócio. Minhas principais contribuições incluem:*
 
