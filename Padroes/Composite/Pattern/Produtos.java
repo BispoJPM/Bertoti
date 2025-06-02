@@ -1,9 +1,9 @@
-package Padroes.Composite.Pattern;
+package Pattern;
 
-class Produto implements Item {
+class Produtos implements Itens {
     private String nome;
 
-    public Produto(String nome) {
+    public Produtos(String nome) {
         this.nome = nome;
     }
 

@@ -1,9 +1,9 @@
-package Padroes.Composite.Pattern;
+package Pattern;
 
-public class CompositePattern {
+public class Componente {
     public static void main(String[] args) {
-        Produto arroz = new Produto("Arroz");
-        Produto feijao = new Produto("Feijão");
+        Produtos arroz = new Produtos("Arroz");
+        Produtos feijao = new Produtos("Feijão");
         Caixa caixa = new Caixa();
         caixa.adicionar(arroz);
         caixa.adicionar(feijao);

@@ -1,16 +1,16 @@
-package Padroes.Composite.Pattern;
+package Pattern;
 
 import java.util.*;
 
-class Caixa implements Item {
-    private List<Item> itens = new ArrayList<>();
+class Caixa implements Itens {
+    private List<Itens> itens = new ArrayList<>();
 
-    public void adicionar(Item item) {
+    public void adicionar(Itens item) {
         itens.add(item);
     }
 
     public void exibir() {
-        for (Item item : itens) {
+        for (Itens item : itens) {
             item.exibir();
         }
     }
