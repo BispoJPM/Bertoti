@@ -1,9 +1,9 @@
-package Padroes.Composite.AntiPattern;
+package AntiPattern;
 
-class Produto {
+class Produtos {
     private String nome;
 
-    public Produto(String nome) {
+    public Produtos(String nome) {
         this.nome = nome;
     }
 
