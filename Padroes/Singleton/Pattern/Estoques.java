@@ -1,15 +1,15 @@
-package Padroes.Singleton.Pattern;
+package Pattern;
 
-class Estoque {
-    private static Estoque instancia;
+class Estoques {
+    private static Estoques instancia;
 
-    private Estoque() {
+    private Estoques() {
         System.out.println("Estoque criado.");
     }
 
-    public static Estoque getInstancia() {
+    public static Estoques getInstancia() {
         if (instancia == null) {
-            instancia = new Estoque();
+            instancia = new Estoques();
         }
         return instancia;
     }

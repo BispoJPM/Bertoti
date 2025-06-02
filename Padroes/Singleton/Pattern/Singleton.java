@@ -1,6 +1,6 @@
-package Padroes.Singleton.Pattern;
+package Pattern;
 
-public class SingletonPattern {
+public class Singleton {
     public static void main(String[] args) {
         Estoque e1 = Estoque.getInstancia();
         Estoque e2 = Estoque.getInstancia();

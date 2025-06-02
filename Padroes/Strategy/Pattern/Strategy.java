@@ -1,6 +1,6 @@
-package Padroes.Strategy.Pattern;
+package Pattern;
 
-public class StrategyPattern {
+public class Strategy {
     public static void main(String[] args) {
         Produto p1 = new Produto("Arroz", 20.0, new DescontoNatal());
         Produto p2 = new Produto("Feijão", 10.0, new DescontoClienteFiel());

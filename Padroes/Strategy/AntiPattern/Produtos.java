@@ -1,11 +1,11 @@
-package Padroes.Strategy.AntiPattern;
+package AntiPattern;
 
-class Produto {
+class Produtos {
     private String nome;
     private double preco;
     private String tipoDesconto;
 
-    public Produto(String nome, double preco, String tipoDesconto) {
+    public Produtos(String nome, double preco, String tipoDesconto) {
         this.nome = nome;
         this.preco = preco;
         this.tipoDesconto = tipoDesconto;

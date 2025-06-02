@@ -1,6 +1,6 @@
-package Padroes.Strategy.Pattern;
+package Pattern;
 
-class DescontoNatal implements Desconto {
+class DescontoNatalino implements Desconto {
     public double calcular(double preco) {
         return preco * 0.9;
     }

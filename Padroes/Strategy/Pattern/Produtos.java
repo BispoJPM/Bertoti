@@ -1,11 +1,11 @@
-package Padroes.Strategy.Pattern;
+package Pattern;
 
-class Produto {
+class Produtos {
     private String nome;
     private double preco;
     private Desconto desconto;
 
-    public Produto(String nome, double preco, Desconto desconto) {
+    public Produtos(String nome, double preco, Desconto desconto) {
         this.nome = nome;
         this.preco = preco;
         this.desconto = desconto;
