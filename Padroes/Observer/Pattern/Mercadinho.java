@@ -1,4 +1,4 @@
-package Padroes.Observer.Pattern;
+package Pattern;
 
 import java.util.*;
 

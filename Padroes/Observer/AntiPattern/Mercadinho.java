@@ -1,10 +1,10 @@
-package Padroes.Observer.AntiPattern;
+package AntiPattern;
 
 class Mercadinho {
-    private Cliente cliente1;
-    private Cliente cliente2;
+    private Clientes cliente1;
+    private Clientes cliente2;
 
-    public Mercadinho(Cliente c1, Cliente c2) {
+    public Mercadinho(Clientes c1, Clientes c2) {
         this.cliente1 = c1;
         this.cliente2 = c2;
     }

@@ -1,6 +1,6 @@
-package Padroes.Observer.AntiPattern;
+package AntiPattern;
 
-class Cliente {
+class Clientes {
     public void receberNotificacao(String produto) {
         System.out.println("Notificado sobre " + produto);
     }

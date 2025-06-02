@@ -1,9 +1,9 @@
-package Padroes.Observer.Pattern;
+package Pattern;
 
-class Cliente implements Observer {
+class Clientes implements Observers {
     private String nome;
 
-    public Cliente(String nome) {
+    public Clientes(String nome) {
         this.nome = nome;
     }
 

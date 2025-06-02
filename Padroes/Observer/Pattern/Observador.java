@@ -1,6 +1,6 @@
-package Padroes.Observer.Pattern;
+package Pattern;
 
-public class ObserverPattern {
+public class Observador {
     public static void main(String[] args) {
         Mercadinho m = new Mercadinho();
         m.adicionarCliente(new Cliente("João"));
