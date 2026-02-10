@@ -20,6 +20,7 @@ Técnico em Administração pela ETEC Machado de Assis e Auxiliar do Controle In
 
 - Foco atual: **Java** e **MySQL** 
 - Experiência básica: Python e C++.
+#
 
 ## 3° Semestre (2024.2):
 
@@ -85,12 +86,14 @@ Técnico em Administração pela ETEC Machado de Assis e Auxiliar do Controle In
 - **Autodidatismo:**
 > Busca ativa por documentação e boas práticas para implementar melhorias técnicas além do conhecimento inicial.
 
+#
+
 ## 2° Semestre (2024.1):
 
 ### Projeto Desenvolvido:  
 - *Ferramenta para consolidação de dados climáticos de cidades do estado de São Paulo - Aplicação desktop simples*.
 ### Problema proposto:
-- *Dsenvolver uma API backend + banco de dados que atenda às necessidades de pesquisa climática de forma funcional, organizada e documentada, apoiando operações CRUD e geração de relatórios a partir de dados meteorológicos*
+- *Desenvolver uma API backend + banco de dados que atenda às necessidades de pesquisa climática de forma funcional, organizada e documentada, apoiando operações CRUD e geração de relatórios a partir de dados meteorológicos*
 ### Solução Desenvolvida:
 - *API em Java para gerenciamento e análise de dados climáticos, com persistência em banco de dados e geração de relatórios.*
 
@@ -104,11 +107,13 @@ Técnico em Administração pela ETEC Machado de Assis e Auxiliar do Controle In
 
 ## Contribuições Pessoais 
 
-- *Definição do problema de negócio e do objetivo do sistema voltado à análise de dados climáticos;*
-- *Levantamento e priorização dos requisitos funcionais e não funcionais no Product Backlog;*
-- *Escrita e refinamento das histórias de usuário, alinhando necessidades técnicas e acadêmicas;*
-- *Acompanhamento das sprints, garantindo que as entregas estivessem alinhadas ao escopo proposto;*
-- *Validação das funcionalidades desenvolvidas, assegurando aderência aos requisitos e à proposta do projeto.*
+- *Atuação como Product Owner, sendo responsável pela definição do problema de negócio e pela visão do produto voltada à análise de dados climáticos;*
+- *Levantamento, priorização e gestão dos requisitos funcionais e não funcionais no Product Backlog, alinhando valor de negócio e objetivos acadêmicos;*
+- *Criação, escrita e refinamento contínuo das histórias de usuário, garantindo clareza, valor e critérios de aceitação bem definidos;*
+- *Acompanhamento das sprints junto ao time de desenvolvimento, assegurando que as entregas estivessem alinhadas à visão do produto e ao escopo proposto;*
+- *Validação e aceite das funcionalidades entregues, verificando a aderência aos requisitos definidos e à proposta do projeto.*
+
+## Hard Skills
 
 | Habilidade Técnica                | Proeficiência | Contribuições Específicas                                                                                                      |
 | --------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -132,3 +137,50 @@ Técnico em Administração pela ETEC Machado de Assis e Auxiliar do Controle In
 
 - **Autodidatismo:**
 > Aprendizado contínuo em Java, banco de dados e manipulação de dados para atender às demandas do projeto.
+
+#
+
+## 1° Semestre (2023.2):
+
+### Projeto Desenvolvido:  
+- *Ferramenta para consolidação de dados climáticos de cidades do estado de São Paulo - Aplicação desktop simples*.
+### Problema proposto:
+- *Sistema de Informação em Python para apoiar o método PBL, permitindo o gerenciamento de alunos, turmas e ciclos de entrega, o registro de scores parciais e o cálculo do FEE, com persistência em banco de dados e geração de relatórios.*
+### Solução Desenvolvida:
+- *API em Java para gerenciamento e análise de dados climáticos, com persistência em banco de dados e geração de relatórios.*
+
+## Tecnologias Utilizadas 
+- *Python – linguagem base utilizada no desenvolvimento da aplicação.*
+- *Aplicação em console – interface textual para execução do sistema e interação com o usuário.*
+
+## Contribuições Pessoais 
+
+- *Atuação como Scrum Master, organizando e conduzindo as sprints, cerimônias ágeis e acompanhando a evolução do time durante o desenvolvimento do projeto;*
+- *Definição do problema de negócio e do objetivo do sistema, alinhando a solução proposta à metodologia PBL adotada pela instituição;*
+- *Levantamento, priorização e refinamento dos requisitos funcionais e não funcionais no Product Backlog;*
+- *Escrita e detalhamento das histórias de usuário, garantindo clareza técnica e alinhamento com os objetivos acadêmicos do projeto;*
+- *Desenvolvimento e correção de grande parte do código da aplicação em Python, incluindo ajustes de lógica, padronização e resolução de erros;*
+- *Revisão e validação das funcionalidades implementadas, assegurando aderência aos requisitos definidos e à proposta do projeto;*
+- *Apoio técnico contínuo à equipe, auxiliando na resolução de impedimentos e na melhoria da qualidade do código.*
+
+## Hard Skills
+
+| Habilidade Técnica    | Proficiência  | Contribuições Específicas                          |
+| --------------------- | ------------- | -------------------------------------------------- |
+| Python                | Iniciante +   | Desenvolvimento e correção da aplicação em console |
+| Lógica de Programação | Iniciante +   | Implementação das regras de negócio                |
+| Git / GitHub          | Intermediário | Versionamento e colaboração                        |
+| Documentação Técnica  | Intermediário | Organização e documentação do projeto              |
+| Scrum                 | Intermediário | Condução das sprints e apoio ao time               |
+
+## Soft Skills
+
+- *Liderança colaborativa e facilitação de equipes;*
+- *Comunicação clara e objetiva entre os membros do time;*
+- *Gestão de tempo e organização de atividades em ambientes ágeis;*
+- *Capacidade de mediação de conflitos e remoção de impedimentos;*
+- *Visão sistêmica e tomada de decisão orientada a objetivos;*
+- *Responsabilidade e proatividade na condução das entregas;*
+- *Adaptabilidade e resiliência frente a mudanças e desafios do projeto.*
+
+#
