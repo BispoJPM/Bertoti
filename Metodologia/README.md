@@ -39,7 +39,6 @@ Técnico em Administração pela ETEC Machado de Assis e Auxiliar do Controle In
 - *Persistência de Dados: MySQL com Spring Data JPA para consultas otimizadas.*
 - *Frontend: Thymeleaf para a construção de interfaces dinâmicas.*
 
-#
 
 ## Contribuições Pessoais 
 
@@ -75,13 +74,61 @@ Técnico em Administração pela ETEC Machado de Assis e Auxiliar do Controle In
 ## Soft Skills
 
 - **Trabalho em equipe:**
-> Durante o desenvolvimento do projeto, participei ativamente da divisão de tarefas e da tomada de decisões em grupo. Essa colaboração me ajudou a entender melhor como respeitar diferentes visões, negociar prioridades e garantir que as funcionalidades se complementassem de forma fluida.
+> Atuação colaborativa na divisão de tarefas, alinhamento de decisões e integração das funcionalidades desenvolvidas.
 
 - **Comunicação:**
-> Ao longo do projeto, frequentemente compartilhei descobertas técnicas, apresentei soluções para problemas enfrentados e ofereci suporte aos colegas em dúvidas relacionadas a filtros, lógica de negócio e estrutura do banco.
+> Compartilhamento de soluções técnicas e apoio ao time em questões relacionadas à lógica de negócio, filtros e banco de dados.
 
 - **Resolução de problemas:**
-> Me deparei com desafios concretos, como melhorar o desempenho das consultas SQL e otimizar o web scraping utilizando a biblioteca Jsoup. Esses problemas exigiram análise detalhada, testes e refatorações. Foi nesse contexto que desenvolvi minha habilidade de investigar causas, testar hipóteses e aplicar soluções eficazes, pensando tanto na eficiência do sistema quanto na escalabilidade.
+> Análise e solução de desafios técnicos envolvendo consultas SQL e otimização do processo de web scraping.
 
 - **Autodidatismo:**
-> Muitas das melhorias que implementei — como a padronização das colunas do banco, filtros dinâmicos por tags ou ajustes finos no scraping — exigiram aprendizado além do que eu já dominava. Em vez de depender apenas de instruções, busquei documentações, fóruns e exemplos práticos por conta própria. Essa autonomia foi essencial para acompanhar o ritmo do projeto e entregar soluções com agilidade.
+> Busca ativa por documentação e boas práticas para implementar melhorias técnicas além do conhecimento inicial.
+
+## 2° Semestre (2024.1):
+
+### Projeto Desenvolvido:  
+- *Ferramenta para consolidação de dados climáticos de cidades do estado de São Paulo - Aplicação desktop simples*.
+### Problema proposto:
+- *Dsenvolver uma API backend + banco de dados que atenda às necessidades de pesquisa climática de forma funcional, organizada e documentada, apoiando operações CRUD e geração de relatórios a partir de dados meteorológicos*
+### Solução Desenvolvida:
+- *API em Java para gerenciamento e análise de dados climáticos, com persistência em banco de dados e geração de relatórios.*
+
+## Tecnologias Utilizadas 
+
+- *Java SE (JDK 22) – base da aplicação desktop.*
+- *JDBC – conexão e persistência com banco de dados relacional.*
+- *MySQL – armazenamento e manipulação dos dados climáticos.*
+- *Swing – construção da interface gráfica.*
+- *Git e GitHub – controle de versão e colaboração.*
+
+## Contribuições Pessoais 
+
+- *Definição do problema de negócio e do objetivo do sistema voltado à análise de dados climáticos;*
+- *Levantamento e priorização dos requisitos funcionais e não funcionais no Product Backlog;*
+- *Escrita e refinamento das histórias de usuário, alinhando necessidades técnicas e acadêmicas;*
+- *Acompanhamento das sprints, garantindo que as entregas estivessem alinhadas ao escopo proposto;*
+- *Validação das funcionalidades desenvolvidas, assegurando aderência aos requisitos e à proposta do projeto.*
+
+| Habilidade Técnica                | Proeficiência | Contribuições Específicas                                                                                                      |
+| --------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| **Java**                          | Iniciante +   | • Desenvolvimento de funcionalidades da API para ingestão, validação e manipulação de dados climáticos                         |
+| **Banco de Dados (MySQL)**        | Intermediario     | • Modelagem e ajuste da estrutura relacional para armazenamento de dados meteorológicos, garantindo integridade e consistência |
+| **Manipulação de Arquivos (CSV)** | Iniciante     | • Implementação da leitura e validação de arquivos CSV contendo variáveis climáticas                                           |
+| **Lógica de Negócio**             | Iniciante     | • Implementação de regras para identificação de dados suspeitos e cálculo de métricas estatísticas                             |
+| **Documentação Técnica**          | Intermediario     | • Apoio na documentação do projeto, requisitos e organização das entregas por sprint                                           |
+
+
+## Soft Skills
+
+- **Trabalho em equipe:**
+> Colaboração ativa no desenvolvimento do projeto, com divisão de tarefas e integração das entregas ao longo das sprints.
+
+- **Comunicação:**
+> Alinhamento constante com o time para esclarecimento de requisitos, regras de negócio e funcionamento da API.
+
+- **Resolução de problemas:**
+> Análise e correção de inconsistências nos dados, ajustes na lógica de validação e melhoria das consultas ao banco.
+
+- **Autodidatismo:**
+> Aprendizado contínuo em Java, banco de dados e manipulação de dados para atender às demandas do projeto.
